@@ -45,10 +45,9 @@ def apply_clearance(cart)
   pp cart 
   puts ''
   cart.each do |item|
-    binding.pry
-    if cart[item][:clearance] == true
-      binding.pry
-      item[:price] -= (item[:price] * 0.2).round(2)
+    # binding.pry
+    if item[1][:clearance] == true
+      item[1][:price] -= (item[1][:price] * 0.2).round(2)
     end 
   end 
   cart
