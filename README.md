@@ -1,4 +1,4 @@
-## Objectives
+le ## Objectives
 Create a checkout method to calculate the total cost of a cart of items and apply discounts and coupons as necessary.
 
 Dr. Steve Bruhle, your green grocer, isn't ready, but you are!
